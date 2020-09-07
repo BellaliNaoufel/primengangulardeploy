@@ -24,16 +24,7 @@ export class AppComponent implements OnInit {
           ]
         }
         ]
-      },
-      {
-        label: 'Paramètres',
-        icon: 'pi pi-fw pi-cog',
-        items: [{
-          label: 'Réinitialiser',
-          icon: 'pi pi-fw pi-arrow-circle-down'
-        }
-        ]
-    }
+      }
     ];
   }
 }
