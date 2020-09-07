@@ -1,5 +1,5 @@
-import { CatvoteComponent } from './Components/catvote/catvote.component';
-import { CatlistComponent } from './Components/catlist/catlist.component';
+import { CatvoteComponent } from './catvote.component';
+import { CatlistComponent } from './catlist.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 

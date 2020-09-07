@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CatService } from 'src/app/services/cat.service';
+import { CatService } from './cat.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { CatModel } from 'src/app/models/cat';
+import { CatModel } from './cat';
 
 @Component({
   selector: 'app-catvote',
@@ -10,10 +10,9 @@ import { CatModel } from 'src/app/models/cat';
 })
 export class CatvoteComponent implements OnInit {
 
-  constructor(private catService: CatService, 
-    private route: ActivatedRoute,
-    private router: Router) { }
-    
+  constructor(private catService: CatService,
+              private route: ActivatedRoute,
+              private router: Router) { }
     twoCats: CatModel[];
 
   ngOnInit(): void {

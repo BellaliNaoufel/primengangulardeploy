@@ -9,8 +9,8 @@ import {TableModule} from 'primeng/table';
 import {PanelModule} from 'primeng/panel';
 import {DialogModule} from 'primeng/dialog';
 import {ProgressBarModule} from 'primeng/progressbar';
-import { CatlistComponent } from './Components/catlist/catlist.component';
-import { CatvoteComponent } from './Components/catvote/catvote.component';
+import { CatlistComponent } from './catlist.component';
+import { CatvoteComponent } from './catvote.component';
 
 @NgModule({
   declarations: [

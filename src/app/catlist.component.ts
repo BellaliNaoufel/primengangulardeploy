@@ -1,6 +1,6 @@
-import { CatService } from './../../services/cat.service';
+import { CatService } from './cat.service';
 import { Component, OnInit } from '@angular/core';
-import { CatModel } from 'src/app/models/cat';
+import { CatModel } from './cat';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -10,9 +10,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class CatlistComponent implements OnInit {
 
-  constructor(private catService: CatService, 
-    private route: ActivatedRoute,
-    private router: Router) { }
+  constructor(private catService: CatService,
+              private route: ActivatedRoute,
+              private router: Router) { }
 
   cats: CatModel[];
   display: boolean = false;
